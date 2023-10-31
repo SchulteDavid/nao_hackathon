@@ -19,6 +19,7 @@ matplotlib==3.8.0
 matplotlib-inline==0.1.6
 nest-asyncio==1.5.8
 numpy==1.26.1
+opencv-python==4.8.1.78
 packaging==23.2
 pandas==2.1.1
 parso==0.8.3
