@@ -6,13 +6,6 @@ YAY!
 Willkommen willkommen zum 1. HTWK Robots Hackathon!  
 Hier findet ihr einige nützliche Infos zum Event.  
 
-### Vorträge am Samstag:
-* 14:30 Uhr: Willkommen & Vorstellung der Challenges
-* 15:30 Uhr: Projekt - Deep Loca
-* 16:30 Uhr: Projekt - Automatische Erkennung der Jerseynummer
-* 17:30 Uhr: Projekt - Whistle Detection/Sound
-   
-
 ### Bedienen des Roboters über Button Interface:
 * Roboter einschalten: Knopf in der Mittekürz drücken (Einschalten dauert ca. 30s warten)
 * Roboter ausschalten: Knopf in der Mitte lange drücken
