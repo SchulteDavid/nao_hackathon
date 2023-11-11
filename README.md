@@ -22,7 +22,7 @@ Hier findet ihr einige nützliche Infos zum Event.
 ### Start der Firmware via SSH:
 1. Mit WLAN NaoHTWK_5G verbinden
 2. Mit Nao verbinden via `ssh nao@10.0.13.XX` (XX ist die Nummer auf Kopf des Naos)
-   Passwort: Todesmaschine
+   Passwort: Hackathon2023
 3. Auf Nao Start der Firmware: `fw_sydney -p`
 4. Auf Nao Programm zum manuellen steuern: `presentation`
 
@@ -34,4 +34,4 @@ Hier findet ihr einige nützliche Infos zum Event.
 
 ### WLAN:
 * Name: NaoHTWK_5G
-* Passwort: 
+* Passwort: Hackathon2023
