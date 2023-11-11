@@ -7,7 +7,7 @@ Willkommen willkommen zum 1. HTWK Robots Hackathon!
 Hier findet ihr einige nützliche Infos zum Event.  
 
 ### Bedienen des Roboters über Button Interface:
-* Roboter einschalten: Knopf in der Mittekürz drücken (Einschalten dauert ca. 30s warten)
+* Roboter einschalten: Knopf in der Mitte kurz drücken (Einschalten dauert ca. 30s warten)
 * Roboter ausschalten: Knopf in der Mitte lange drücken
 * Firmware starten: Knopf in der Mitte kurz drücken, wenn Roboter an ist
 * Firmware ausschalten: Knopf in der Mitte kurz drücken, wenn Firmware an ist
