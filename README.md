@@ -16,11 +16,13 @@ erste Erfahrungen mit Themen wie z.B. Bildanalyse oder neuronalen Netzen gemacht
 | Beginner | | |  
 | | mic-plot | In dieser Challenge sollen Audiodaten in einem Graphen dargestellt werden und anschließend überlegt, woran ein defekt erkannt werden kann. |
 | | slalom | Für diese Challenge muss eine einfache Fernsteuerung für den Roboter in Python implementiert werden. Anschließend soll damit ein Slalom-Lauf absolviert werden. |
+| | Schussbewegung | Bringt dem Roboter in zweierteams bei, einen Schuss auszuführen! |
 | | reel | Leute die sich nicht nur fürs coden interressieren, können in dieser Challenge ein Reel machen. Die besten werden (nur mit eurer Zustimmung) auf unserem Instagram hochgeladen. |
 | Intermediate | | |
 | | mic-defects | Diese Challenge ist eine Weiterführung der mic-plot Challenge. Hier soll die ausgedachte erkennung automatisiert werden. |
 | | slalom2 | Hier wird die Beginner-Slalom-Challenge weitergeführt. Dafür wird die Steuerung etwas erschwierigt. |
 | | red-ball | In dieser Challenge soll ein roter Ball in einem Bild erkannt werden. |
+| | Aufstehbewegung | Bringt dem Roboter in Zweierteams bei aufzustehen! |
 | Advanced | | |
 | | black-white-ball | Diese Challenge ist eine Weiterführung der red-ball Challenge. Dafür soll nun ein schwarz-weißer Ball mithilfe eines neuronalen Netzes erkannt werden. |
 | | field-lines | In dieser Challenge sollen die Feldlinien auf Bildern erkannt werden. |
