@@ -9,12 +9,13 @@ Einen der Logs findest du als csv-Datei im Ordner data/game_statistics
 ### Aufgabe:
 Analysiere die Log-Datei mithilfe eines Python Scripts.
 Du kannst dabei zum Beispiel:
- - eine Heatmap der Positionen der Roboter erstellen
  - Analysieren welche Roboter besonders oft Fallen
  - Auswerten welche Roboter sehr oft eine Zeitstrafe bekommen
+ - Eine Heatmap der Positionen der Roboter erstellen
+ - Dir weitere sinnvolle Auswertungen überlegen
 
 ### Hinweis:
-Die Spalten der Tabell haben folgende Bedeutungen:
+Die Spalten der Tabelle haben folgende Bedeutungen:
 
 - Timestamp: Zeit in Millisekunden, die seit dem Start des Game Controllers vergangen sind
 - Game State: Gibt an, in welcher Spielphase die Daten aufgenommen wurden
