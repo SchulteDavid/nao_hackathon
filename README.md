@@ -1,11 +1,10 @@
 # HTWK-Robots Hackathon
 
-Dieses Repo ist für Challenges-Dateien, vorgefertigte Skripte etc. gedacht. Hier kann jeder seine Challenges pushen.
-YAY!  
-
-Willkommen willkommen zum 1. HTWK Robots Hackathon!  
-Hier findet ihr einige nützliche Infos zum Event.  
-
+### Willkommen willkommen zum 1. HTWK Robots Hackathon!  
+Hier findet ihr einige nützliche Infos zum Event.    
+      
+       
+    
 ### Bedienen des Roboters über Button Interface:
 * Roboter einschalten: Knopf in der Mittekürz drücken (Einschalten dauert ca. 30s warten)
 * Roboter ausschalten: Knopf in der Mitte lange drücken
