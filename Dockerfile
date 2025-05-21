@@ -25,6 +25,7 @@ RUN source jupyter-env/bin/activate && cd naobackend && pip install --force-rein
 #RUN python3 -m ipykernel install --user --name=NaoEnv
 RUN python3 -c "import naobackend"
 
-CMD source jupyter-env/bin/activate && jupyter notebook --allow-root --NotebookApp.token=''
 
+CMD source jupyter-env/bin/activate && jupyter notebook --allow-root --NotebookApp.token=''
+EXPOSE 8888
 

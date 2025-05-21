@@ -1,0 +1,18 @@
+# Firmware
+
+## Start über ssh
+
+ 1. Mit dem WLAN `NAOHTWK_STUD` verbinden. Passwort: `TeeeWort`
+ 2. Mit dem Nao über `ssh` verbinden:
+    ``` bash
+    ssh -i id_hackathon2025 nao@10.0.13.XX
+    ```
+    Hier ist `XX` die Nummer auf dem Aufkleber auf dem Kopf des Roboters
+ 3. Auf dem Nao die Firmware starten:
+    ``` bash
+    fw_sydney -p
+    ```
+ 4. Programm um den Roboter manuell zu steuern:
+    ```bash
+    presentation
+    ```
