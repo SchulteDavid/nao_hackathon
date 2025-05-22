@@ -1,0 +1,9 @@
+# Status LEDs
+
+Die LEDs im Kopf des Roboters geben Informationen über seinen Status an.
+
+## Quick References
+
+### Bedeutung LEDs:
+* Grünes Auge: Roboter wird geladen
+* Blaue LEDs am Ohr: Akkustand (100% bei geschlossenem Kreis)

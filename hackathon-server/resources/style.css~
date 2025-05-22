@@ -1,0 +1,12 @@
+#content {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3em;
+}
+
+#sidebar {
+    width: 25%;
+    position: absolute;
+    left: 1em;
+    top: 3em;
+}

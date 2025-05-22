@@ -11,7 +11,8 @@ Die Ohren des Roboters zeigen seinen Aktuellen Akkuladestand an. Wenn der Kreis 
 Wenn die Ohren nicht mehr leuchten **den Roboter sofort an ein Ladekabel anschließen**.
 
 <center>
-<img src="/static/button.jpg" width="50%">
+<img src="/static/button.jpg" width="50%"><br>
+<span class="figure-desc">Abbildung: Sitzender Nao. Hier sind die wichtigen Knöpfe markiert.</span>
 </center>
 
 

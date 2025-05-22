@@ -1,0 +1,56 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Noto Sans Mono', monospace;
+    color: #2d3ca7;
+}
+
+#content {
+    #width: 50%;
+    max-width: 40em;
+    text-align: justify;
+    margin: auto;
+    margin-top: 5em;
+}
+
+#sidebar {
+    width: 25%;
+    position: fixed;
+    left: 1em;
+    top: 3em;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+h2 {
+    margin-top: 2em;
+    font-size: 22pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+.figure-desc {
+    font-size: small;
+}
+
+a {
+    color: #2d3ca7;
+}
+
+a :hover {
+    color: green;
+}
+
+li {
+    margin-top: 0.5em;
+}
+
+code {
+    font-size: 12pt;
+    font-weight: 2;
+    border: 1px;
+}

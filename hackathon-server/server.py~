@@ -1,0 +1,72 @@
+import asyncio
+import tornado
+
+import subprocess
+
+from sqlalchemy import String
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+
+NEXT_PORT=9000
+
+class Base(DeclarativeBase):
+    pass
+
+class Container(Base):
+    __tablename__ = "container"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    docker_id: Mapped[str] = mapped_column(String(128))
+    port: Mapped[int] = mapped_column()
+    host_dir: Mapped[str] = mapped_column(String(256))
+
+
+def start_jupyter_container():
+    global NEXT_PORT
+
+    host_dir = "/home/david/Documents/nao_hackathon"
+    
+    proc = subprocess.Popen(["docker", "run", "-it", "-p", f"{NEXT_PORT}:8888", "-v", f"{host_dir}:/mnt/notebooks", "-d", "htwk-robots:hackathon"], stdout=subprocess.PIPE)
+    docker_id = proc.stdout.readline().strip()
+    print(docker_id, NEXT_PORT)
+    NEXT_PORT = NEXT_PORT + 1
+
+    return docker_id, NEXT_PORT - 1
+    
+
+def get_jupyter_container():
+    pass
+
+
+class MainHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.write(repr(self.request))
+
+class JupyterHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        docker_id = None
+        docker_port = 0
+        host_ip = self.request.host.split(':')[0]
+        host_port = int(self.request.host.split(':')[1])
+        if not self.get_cookie("docker-id"):
+            print("Starting docker")
+            docker_id, docker_port = start_jupyter_container()
+        else:
+            docker_id = self.get_cookie("docker-id")
+
+        self.redirect(f"http://{host_ip}:{docker_port}")
+
+def make_app():
+    return tornado.web.Application([
+        (r"/", MainHandler),
+        (r"/jupyter", JupyterHandler)
+    ], debug=True)
+
+async def main():
+    app = make_app()
+    app.listen(8888)
+    await asyncio.Event().wait()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+

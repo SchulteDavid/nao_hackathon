@@ -10,6 +10,7 @@ import shutil
 from typing import List
 import sys
 import pycmarkgfm
+import markdown
 
 NEXT_PORT=9000
 
@@ -115,9 +116,10 @@ def stop_containers():
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        loader = tornado.template.Loader("templates/")
-        template = loader.load("index.html")
-        self.write(template.generate(user_id=self.get_cookie("user-id")))
+        #loader = tornado.template.Loader("templates/")
+        #template = loader.load("index.html")
+        #self.write(template.generate(user_id=self.get_cookie("user-id")))
+        self.write(open("templates/index.html").read())
 
 class JupyterHandler(tornado.web.RequestHandler):
 
@@ -171,7 +173,8 @@ class DocumentationHandler(tornado.web.RequestHandler):
         loader = tornado.template.Loader("templates/")
         template = loader.load("doc.html")
         file_path = os.path.join("doc", path)
-        self.write(template.generate(document=pycmarkgfm.gfm_to_html(open(file_path).read())))
+        md = markdown.Markdown(extensions=['pymdownx.superfences'])
+        self.write(template.generate(document=md.convert(open(file_path).read())))
 
 def make_app():
     return tornado.web.Application([
