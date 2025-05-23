@@ -126,8 +126,7 @@ class JupyterHandler(tornado.web.RequestHandler):
     def get(self):
         docker_id = None
         docker_port = 0
-        host_ip = self.request.host.split(':')[0]
-        host_port = int(self.request.host.split(':')[1])
+        host_ip = self.request.host
 
         session = connect_to_db()
         
@@ -149,8 +148,7 @@ class JupyterHandler(tornado.web.RequestHandler):
         container = user.current_container
         docker_id = container.docker_id
         docker_port = container.port
-        #self.redirect(f"http://{host_ip}:{docker_port}")
-        self.write(f'<meta http-equiv="refresh" content="3;url=http://{host_ip}:{host_port}/container/{docker_id}" />')
+        self.write(f'<meta http-equiv="refresh" content="3;url=http://{host_ip}/container/{docker_id}" />')
         self.write(f"<h1>Starting Container and jupyter server...</h1>")
 
 class ContainerHandler(tornado.web.RequestHandler):
@@ -177,22 +175,24 @@ class DocumentationHandler(tornado.web.RequestHandler):
         self.write(template.generate(document=md.convert(open(file_path).read())))
 
 def make_app():
-    return tornado.web.Application([
+    return tornado.web.Application([                                                                                                                                                                                                                                                                                   
         (r"/", MainHandler),
         (r"/jupyter", JupyterHandler),
         (r"/container/(.*)?", ContainerHandler),
         (r"/static/(.*)?", tornado.web.StaticFileHandler, {"path": "resources"}),
-        (r"/doc/(.*)?", DocumentationHandler)
-    ], debug=True)
-
+        (r"/doc/(.*)?", DocumentationHandler),
+        (r'/(favicon.ico)', tornado.web.StaticFileHandler, {"path": "resources"}),
+    ], debug=True)                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                            
 async def main():
     try:
         app = make_app()
         app.listen(8888)
         await asyncio.Event().wait()
-    except:
-        print("Ending gracefully")
-        stop_containers()
+    except Exception as e:                                                                                                                                                                                                                                                                                             
+    print("Ending gracefully:", e)
+    stop_containers()
+
 
 if __name__ == "__main__":
 
