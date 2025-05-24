@@ -27,6 +27,7 @@ erste Erfahrungen mit Themen wie z.B. Bildanalyse oder neuronalen Netzen gemacht
 | | black-white-ball | Diese Challenge ist eine Weiterführung der red-ball Challenge. Dafür soll nun ein schwarz-weißer Ball mithilfe eines neuronalen Netzes erkannt werden. |
 | | field-lines | In dieser Challenge sollen die Feldlinien auf Bildern erkannt werden. |
 | | samplerate | Hier sollen die Daten eines Mikrofons, dass eine bestimmte Samplerate eingestellt hat zu Daten mit einer anderen Samplerate kovertiert werden. |
+| | long-stride-learning | Trainiere eine zweibeinige Robotersimulation mithilfe von Reinforcement Learning so, dass sie mit möglichst großer durchschnittlicher Schrittlänge stabil vorwärts läuft. |
 
     
 ### Bedienen des Roboters über Button Interface:
