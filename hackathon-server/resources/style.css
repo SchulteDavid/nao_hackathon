@@ -54,3 +54,8 @@ code {
     font-weight: 2;
     border: 1px;
 }
+
+table, th, td {
+  border: 1px solid #2d3ca7;
+  border-collapse: collapse;
+}
