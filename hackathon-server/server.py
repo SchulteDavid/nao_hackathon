@@ -189,9 +189,9 @@ async def main():
         app = make_app()
         app.listen(8888)
         await asyncio.Event().wait()
-    except Exception as e:                                                                                                                                                                                                                                                                                             
-    print("Ending gracefully:", e)
-    stop_containers()
+    except Exception as e:
+        print("Ending gracefully:", e)
+        stop_containers()
 
 
 if __name__ == "__main__":
@@ -200,4 +200,3 @@ if __name__ == "__main__":
     CONFIG["root-dir"] = os.path.abspath(sys.argv[2])
     
     asyncio.run(main())
-
