@@ -175,7 +175,7 @@ class DocumentationHandler(tornado.web.RequestHandler):
         self.write(template.generate(document=md.convert(open(file_path).read())))
 
 def make_app():
-    return tornado.web.Application([                                                                                                                                                                                                                                                                                   
+    return tornado.web.Application([
         (r"/", MainHandler),
         (r"/jupyter", JupyterHandler),
         (r"/container/(.*)?", ContainerHandler),
@@ -187,7 +187,7 @@ def make_app():
 async def main():
     try:
         app = make_app()
-        app.listen(8888)
+        app.listen(80)
         await asyncio.Event().wait()
     except Exception as e:
         print("Ending gracefully:", e)
