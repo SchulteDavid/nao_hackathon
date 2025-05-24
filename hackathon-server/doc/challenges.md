@@ -1,24 +1,25 @@
 # Challenges
 
-| Level        | Challenge               | Teammember           |
-|--------------|-------------------------|----------------------|
-| Beginner     | Mic Plot                | David                |
-| Beginner     | Slalom 1                | Felix, Eric          |
-| Beginner     | Whistle 1               | Tobias, David        |
-| Beginner     | Schussbewegung          | Eric, Felix, Tobias  |
-| Beginner     | Communication Logs      | Tobias               |
-| Beginner     | Live Roboter Controls 1 | Max, Jurek, Lennart  |
-| Beginner     | Obstacle Navigation     | Max, Jurek, Lennart  |
-| Beginner     | Videoproduktion 1       | Max                  |
-| Beginner     | Social Media: Reels     | Max                  |
-| Intermediate | Mic Defects             | David                |
-| Intermediate | Ball Detection 1        | Felix, Raphael, Eric |
-| Intermediate | Slalom 2                | Felix, Eric          |
-| Intermediate | Whistle 2               | Tobias               |
-| Intermediate | Aufstehbewegung         | Eric, Felix, Tobias  |
-| Intermediate | Live Roboter Controls 2 | Max, Jurek, Lennart  |
-| Advanced     | Ball Detection 2        | Felix, Eric          |
-| Advanced     | Field Lines             | Felix, Tobias        |
-| Advanced     | Samplerate	             | David                |
-| Advanced     | Whistle 3	             | Tobias               |
-| Advanced     | Videoproduktion 2       | Max                  |
+<table>
+<tr><td> Level        </td><td> Challenge              </td><td> Teammember           </td></tr>
+<tr><td> Beginner     </td><td> Mic Plot               </td><td> David                </td></tr>
+<tr><td> Beginner     </td><td> Slalom 1               </td><td> Felix, Eric          </td></tr>
+<tr><td> Beginner     </td><td> Whistle 1              </td><td> Tobias, David        </td></tr>
+<tr><td> Beginner     </td><td> Schussbewegung         </td><td> Eric, Felix, Tobias  </td></tr>
+<tr><td> Beginner     </td><td> Communication Logs     </td><td> Tobias               </td></tr>
+<tr><td> Beginner     </td><td> Live Roboter Controls 1</td><td> Max, Jurek, Lennart  </td></tr>
+<tr><td> Beginner     </td><td> Obstacle Navigation    </td><td> Max, Jurek, Lennart  </td></tr>
+<tr><td> Beginner     </td><td> Videoproduktion 1      </td><td> Max                  </td></tr>
+<tr><td> Beginner     </td><td> Social Media: Reels    </td><td> Max                  </td></tr>
+<tr><td> Intermediate </td><td> Mic Defects            </td><td> David                </td></tr>
+<tr><td> Intermediate </td><td> Ball Detection 1       </td><td> Felix, Raphael, Eric </td></tr>
+<tr><td> Intermediate </td><td> Slalom 2               </td><td> Felix, Eric          </td></tr>
+<tr><td> Intermediate </td><td> Whistle 2              </td><td> Tobias               </td></tr>
+<tr><td> Intermediate </td><td> Aufstehbewegung        </td><td> Eric, Felix, Tobias  </td></tr>
+<tr><td> Intermediate </td><td> Live Roboter Controls 2</td><td> Max, Jurek, Lennart  </td></tr>
+<tr><td> Advanced     </td><td> Ball Detection 2       </td><td> Felix, Eric          </td></tr>
+<tr><td> Advanced     </td><td> Field Lines            </td><td> Felix, Tobias        </td></tr>
+<tr><td> Advanced     </td><td> Samplerate	           </td><td> David                </td></tr>
+<tr><td> Advanced     </td><td> Whistle 3	           </td><td>Tobias                </td></tr>
+<tr><td> Advanced     </td><td> Videoproduktion 2      </td><td> Max                  </td></tr>
+</table>
