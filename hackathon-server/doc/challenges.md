@@ -1,6 +1,10 @@
 # Challenges
 
-<table>
+Hier ist eine Übersich über die Challenges und wer sich damit gut auskennt.
+Falls ihr Fragen habt, fragt einfach jemanden, der kann auch zumindest sagen mit
+wem ihr reden müsst.
+
+<table width="100%">
 <tr><td> <b>Level</b> </td><td> <b>Challenge</b>       </td><td> <b>Teammember</b>    </td></tr>
 <tr><td> Beginner     </td><td> Mic Plot               </td><td> David                </td></tr>
 <tr><td> Beginner     </td><td> Slalom 1               </td><td> Felix, Eric          </td></tr>
@@ -22,4 +26,5 @@
 <tr><td> Advanced     </td><td> Samplerate	           </td><td> David                </td></tr>
 <tr><td> Advanced     </td><td> Whistle 3	           </td><td>Tobias                </td></tr>
 <tr><td> Advanced     </td><td> Videoproduktion 2      </td><td> Max                  </td></tr>
+<tr><td> Advanced     </td><td> Sound Kommunikation    </td><td> David                </td></tr>
 </table>
