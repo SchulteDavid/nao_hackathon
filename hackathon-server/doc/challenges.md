@@ -1,7 +1,7 @@
 # Challenges
 
 <table>
-<tr><td> Level        </td><td> Challenge              </td><td> Teammember           </td></tr>
+<tr><td> **Level**    </td><td> **Challenge**          </td><td> **Teammember**       </td></tr>
 <tr><td> Beginner     </td><td> Mic Plot               </td><td> David                </td></tr>
 <tr><td> Beginner     </td><td> Slalom 1               </td><td> Felix, Eric          </td></tr>
 <tr><td> Beginner     </td><td> Whistle 1              </td><td> Tobias, David        </td></tr>
